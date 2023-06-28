@@ -1,0 +1,97 @@
+
+body {
+
+  font-size: 18px;
+  overflow-x: hidden
+}
+
+
+.form-group {
+  margin: auto 34%;
+  padding: 6px;
+  font-weight: 600;
+}
+#star {
+  color: red;
+}
+#btn {
+  margin: auto 34%;
+  padding: 8px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+#btn2 {
+  background: blue;
+  margin: auto 34%;
+  padding: 8px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.error {
+  color: red;
+  font-family: verdana, Helvetica;
+}
+.delete-btn {
+  background: red;
+  color: black;
+}
+
+footer .footer-col {
+  text-align: center;
+  padding: 1px;
+  background-color: black;
+  color: white;
+ margin-top: auto;
+}
+footer p {
+  margin-top: 10px;
+}
+
+
+@media screen and (max-width: 766px) {
+ 
+  footer .footer-col{
+    width: 202%;
+    margin-top: 50%;
+  }
+  #regester{
+    width: 100%;  
+    margin: 0px 25%;
+  }
+  .container{
+    width: 100%;
+    margin: 0px 50%;
+  }
+  #form{
+    width: 100%;
+    margin: 0px 20%;
+  }
+}
+  @media  screen and (max-width: 623px) {
+    #regester{
+    width: 100%;
+    margin: 0px 5%;
+  }
+  footer .footer-col{
+    width: 225%;
+    margin-top: 50%;
+  }
+  }
+  @media  screen and (max-width: 480px) {
+    #regester{
+    width: 100%;
+    margin: 0px 24%;
+  }
+  footer .footer-col{
+    width: 235%;
+   margin-top: 132%;
+  }
+  #swtich{
+    width: 100%;
+    margin: 0px 35%;
+  }
+  #form{
+    width: 100%;
+    margin: 0% 37%;
+  }
+  }

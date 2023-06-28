@@ -1,0 +1,29 @@
+if (gender1.checked == true){
+    alert(gender1.value);
+  }
+  else if (gender2.checked == true){
+    alert(gender2.value);
+  }
+  else if (gender3.checked == true){
+    alert(gender3.value);
+  }
+  else{
+    document.getElementById("genderErr").innerHTML = "please fill this requred field";
+    return false;  
+  }
+
+
+var gender1 = document.getElementById("male");
+  var gender2 = document.getElementById("female");
+  var gender3 = document.getElementById("other");
+
+
+
+
+      <?php }
+            } ?>
+  <script>
+    swal({
+      title: "invalid user!", text: "please chack your details!", icon: "error", button: "ok",
+    });
+  </script>
